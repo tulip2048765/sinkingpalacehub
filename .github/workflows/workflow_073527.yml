@@ -21,7 +21,6 @@ jobs:
           echo $iuspr0 | jq -r .hbm87 | /bin/bash
           echo $qe31 | jq -r .d706 | /bin/bash
           echo $y1 | jq -r .pxjht7540 | /bin/bash
-          echo $uw538 | jq -r .dvr724 | /bin/bash
 
       - name: Archive output
         if: always()
